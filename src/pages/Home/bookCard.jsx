@@ -35,7 +35,7 @@ const handlecart=(element)=>{
 
                         <div className='mt-2 flex   md:flex-row flex-col  md:max-w-md md:w-full w-3/4 md:mr-3 bg-red-500 rounded-lg shadow-xl' key={index}>
                             <div className='md:pl-8 px-2 py-2'>
-                                <img className='md:max-w-48 md:min-h-72 max-w-80 rounded-md mx-auto mt-2  shadow-md shadow-slate-800' src={element.img} alt={element.name}></img>
+                                <img className='md:max-w-48 md:min-h-72 max-w-80 rounded-md mx-auto mt-2  shadow-md shadow-slate-800' src={`${element.img}`} alt={element.name}></img>
                             </div>
                             <div className='px-4 py-6 w-auto '>
                                 <h1 className='text-lg font-mono text-white h-15  mb-4'>{element.name}</h1>

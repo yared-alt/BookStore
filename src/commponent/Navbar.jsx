@@ -42,7 +42,7 @@ function Navbar() {
                     {
                         IsuserLoged ?
                             <div className=''>
-                                <img onClick={() => setUseraccoundToggled(!useraccountToggeled)} className=' ring-red-600 ring w-9 h-9 mx-auto my-auto mr-4 mt-1 cursor-pointer  rounded-full ' src="src\assets\open-book-with-white-background.jpg"></img>
+                                <img onClick={() => setUseraccoundToggled(!useraccountToggeled)} className=' ring-red-600 ring w-9 h-9 mx-auto my-auto mr-4 mt-1 cursor-pointer  rounded-full ' src="/open-book-with-white-background.jpg"></img>
                             </div>
                             :
                             <div className='relative'>
