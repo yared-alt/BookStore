@@ -1,0 +1,138 @@
+[
+    {
+        "id":1,
+        "img":"src/assets/5283927.jpg",
+        "catagory":"fiction",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amoluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"44",
+        "prevPrice":"55"
+    },
+    {
+        "id":2,
+        "img":"src/assets/4116738.jpg",
+        "catagory":"fiction",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"36",
+        "prevPrice":"55"
+    },
+    {
+        "id":3,
+        "img":"src/assets/5151818.jpg",
+        "catagory":"fiction",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odentore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"44",
+        "prevPrice":"67"
+    },
+    {
+        "id":4,
+        "img":"src/assets/5171295.jpg",
+        "catagory":"history", 
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicingusto inventore",
+        "price":"46",
+        "prevPrice":"66"
+    },
+    {
+        "id":5,
+        "img":"src/assets/5283927.jpg",
+        "catagory":"history", 
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem  id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"54",
+        "prevPrice":"59"
+    },
+    {
+        "id":6,
+        "img":"src/assets/7502178.jpg",
+        "catagory":"Scince",
+        "name":"the forest King",
+        "description":"Lorem iendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"31",
+        "prevPrice":"32"
+    },
+    {
+        "id":7,
+        "img":"src/assets/5283927.jpg",
+        "catagory":"Scince",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio ela? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"35",
+        "prevPrice":"56"
+    },
+    {
+        "id":8,
+        "img":"src/assets/7502178.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas llo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipuis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"20",
+        "prevPrice":"50"
+    },
+    {
+        "id":9,
+        "img":"src/assets/5283927.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exetore",
+        "price":"10",
+        "prevPrice":"30"
+    },
+    {
+        "id":10,
+        "img":"src/assets/5171295.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lors quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"54",
+        "prevPrice":"70"
+    },
+    {
+        "id":11,
+        "img":"src/assets/5283927.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"22",
+        "prevPrice":"44"
+    },
+    {
+        "id":12,
+        "img":"src/assets/5171295.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"14",
+        "prevPrice":"43"
+    },
+    {
+        "id":13,
+        "img":"src/assets/5283927.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem epellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"23",
+        "prevPrice":"45"
+    },
+    {
+        "id":14,
+        "img":"src/assets/5171295.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit atore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"55",
+        "prevPrice":"59"
+    },
+    {
+        "id":15,
+        "img":"src/assets/7502178.jpg",
+        "catagory":"romantic",
+        "name":"the forest King",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem lla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nulla? Repellat id quis quo quae nulla ipsa quas iusto odio et optio. Atque exercitationem sit perferendis voluptates illo iusto inventore",
+        "price":"20",
+        "prevPrice":"33"
+    }
+]
+
