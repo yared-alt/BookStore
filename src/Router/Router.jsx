@@ -6,6 +6,7 @@ import Service from "../pages/Service";
 import About from "../pages/About";
 import Login from "../commponent/Login";
 import Register from "../commponent/Register";
+import Cart from "../pages/Cart"
 
 
 const Router = createBrowserRouter(
@@ -30,6 +31,10 @@ const Router = createBrowserRouter(
                     path: "/service",
                     element: <Service />
                 },
+                {
+                    path: "/cart",
+                    element:<Cart />
+                }
 
             ]
         },
