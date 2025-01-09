@@ -3,21 +3,17 @@ import BookData from "./fatchBooks"
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../../store/slices/cartSlice';
 
-// import { cartItemsSelector,totalSelector,totalNumberOfItemselector } from '../../store/slices/cartSlice';
-import {cartItemsSelector} from "../../store/slices/cartSlice"
+
 export default function BookCard({ catagory }) {
     const dispatch = useDispatch();
 
-    const cartItems = useSelector(cartItemsSelector);
-    // console.log(cartItems);
 
 
     const handlecart = (element, index, d, e) => {
 
         element.quantity = 1;
-        // element.totalQuantityPrice=Number(element.price);
-        // element.Price=Number(element.price);
-        const obj = { id: element.id, name: element.name, price: Number(element.price), quantity: Number(element.quantity) ,totalQuantityPrice:Number(element.price)};
+
+    const obj = { id: element.id, name: element.name, price: Number(element.price), quantity: Number(element.quantity) ,totalQuantityPrice:Number(element.price)};
         dispatch(addToCart(obj))
     }
 
@@ -26,7 +22,7 @@ export default function BookCard({ catagory }) {
     const d = catagory === "Select Catagory" || catagory === "All" ? data : data.filter(book => book.catagory === catagory.toLowerCase());
 
     return (
-        // <div className='my-4 flex py-11  overflow-hidden overflow-x-auto  mx-auto md:flex-row flex-col'> 
+ 
         <div className='my-4 flex md:flex-row gap-3  py-11  overflow-hidden overflow-x-auto   flex-col '>
 
             {
@@ -55,13 +51,6 @@ export default function BookCard({ catagory }) {
                                 }
                                 <span className='text-yellow-400 ml-0 '>${element.price}</span>
                                 <span className='ml-5 line-through'>${element.prevPrice}</span><br></br>
-
-                                {/* <div className='inline-flex w-40'>
-                                <button onClick={()=>handlecart(element)} className='w-5 h-9 bg-yellow-400 my-4 '>-</button>
-                                <span className='mt-5 mx-5 text-slate-50'>{totalquantiy}</span>
-
-                                <button onClick={()=>handlecart(element)} className='w-5 h-9 bg-yellow-400 my-4 '>+</button>
-                                </div> */}
                                 <button onClick={() => handlecart(element)} className='w-32 h-9 bg-yellow-400 my-4 '>Add to cart</button>
                             </div>
                         </div>

@@ -1,10 +1,10 @@
 import { useState} from 'react'
 import { Link } from 'react-router-dom'
 import {  useSelector } from 'react-redux';
-import { totalNumberOfItemselector } from '../store/slices/cartSlice';
+
 
 function Navbar() {
-    const totalnumberOfItems=useSelector(totalNumberOfItemselector);
+    const totalnumberOfItems=useSelector((state)=>state.cart.totalnumberOfItems);
     const [useraccountToggeled, setUseraccoundToggled] = useState(false);
     const dropdownBtns = [
         { name: "Dashboard", href: "/dashborad" },
@@ -25,12 +25,6 @@ function Navbar() {
         }
     }
     const drops=makedrop(IsuserLoged);
-    const showcart=useSelector(state=>state.showCart);
-    // console.log(showcart);
-// const dispatch=useDispatch();
-//     const toggleCart=()=>{
-//         dispatch(showCart());
-//     }
 
 
 
@@ -61,7 +55,6 @@ return (
                     </div>
                 )}
 
-                {/* Remove the toggled bar when the user clicks outside the bar */}
                 {useraccountToggeled && (
                     <ul className="w-36 flex flex-col rounded-md z-10 bg-slate-400 absolute  md:right-24 top-32 md:top-24 right-4">
                         {drops.map((element) => (

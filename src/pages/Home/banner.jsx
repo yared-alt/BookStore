@@ -13,11 +13,8 @@ export default function Banner() {
 
           <div className='relative my-auto md:right-0 ' style={{backgroundImage:"C:\Users\Administrator\Desktop\bookstore\public\Screenshot 2024-12-22 132240.png"}}>
             
-            <img src='public/overlapedpic.png' className='block max-w-full mx-auto' alt="overlaped book"></img>
-            {/* <img className='lg:w-48 lg:h-52 md:w-40 md:h-44 absolute lg:top-20 lg:-right-3 md:top-20 md:left-36 w-48 h-52 top-20 left-64' src='\5151818.jpg' alt="books "></img>
-            <img className=' lg:w-56 lg:h-60 md:w-48  md:h-52 w-38 absolute w-56 h-60 md:top-16 md:left-1 opacity-44 top-16 left-40'
-              src='\4116738.jpg' alt="books "></img>
-            <img className=' lg:w-60 lg:h-80 md:w-50  md:h-72 w-60 h-80 md:top-8 md:-left-28 relative top-6 left-16 opacity-44' src='\5171295.jpg' alt="books"></img> */}
+            <img src='overlapedpic.png' className='block max-w-full mx-auto' alt="overlaped book"></img>
+
           </div>
         </div>
       </section>
